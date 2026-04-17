@@ -6,9 +6,8 @@ on:
       - main
     paths:
       - 'src/**'
-    paths-ignore:
-      - 'src/prompts/**'
-      - 'src/infra/agents/**'
+      - '!src/prompts/**'
+      - '!src/infra/agents/**'
 
 permissions:
   contents: read
