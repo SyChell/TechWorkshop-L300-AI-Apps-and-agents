@@ -5,7 +5,6 @@ on:
     paths:
       - 'src/prompts/CustomerLoyaltyAgentPrompt.txt'
       - 'src/infra/agents/customer-loyalty.json'
-      - '.github/workflows/customer_loyalty_agent_update.yml'
   workflow_dispatch:
 
 jobs:

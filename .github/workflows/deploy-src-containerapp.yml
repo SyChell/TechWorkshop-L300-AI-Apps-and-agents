@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'src/**'
+    paths-ignore:
+      - 'src/prompts/**'
+      - 'src/infra/agents/**'
 
 permissions:
   contents: read
